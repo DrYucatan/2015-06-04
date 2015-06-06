@@ -13,18 +13,18 @@ int main(int argc, const char * argv[]) {
         
         // All our string goodies:
         NSString *onThe = @"\nOn the ";
-        NSArray *ordinalNumbers = @[@"first ", @"second ", @"third ",
-                                    @"fourth ", @"fifth ", @"sixth ",
-                                    @"seventh ", @"eighth ", @"ninth ",
-                                    @"tenth ", @"eleventh ", @"twelfth "];
-        NSString *dayOf = @"day of Christmas my true love gave to me \n";
+        NSArray *ordinalNumbers = @[@"Paul Blart ", @"Paul Blart ", @"Paul Blart ",
+                                    @"Paul Blart ", @"Paul Blart ", @"Paul Blart ",
+                                    @"Paul Blart ", @"Paul Blart ", @"Paul Blart ",
+                                    @"Paul Blart ", @"Paul Blart ", @"Paul Blart "];
+        NSString *dayOf = @"day of Paul Blart my Paul Blart gave to me \n";
         NSString *allGifts = @"and ";
-        NSArray *gifts = @[@"a Partridge in a Pear Tree.\n", @"Two Turtle Doves\n",
-                           @"Three French Hens,\n", @"Four Calling Birds,\n",
-                           @"Five Gold Rings,\n", @"Six Geese a-Laying,\n",
-                           @"Seven Swans a-Swimming,\n", @"Eight Maids a-Milking,\n",
-                           @"Nine Ladies Dancing,\n", @"Ten Lords a-Leaping,\n",
-                           @"Eleven Pipers Piping,\n", @"Twelve Drummers Drumming,\n"];
+        NSArray *gifts = @[@"one Blu-Ray of Paul Blart: Mall Cop.\n", @"two Blu-Rays of Paul Blart: Mall Cop\n",
+                           @"three Blu-Rays of Paul Blart: Mall Cop,\n", @"four Blu-Rays of Paul Blart: Mall Cop,\n",
+                           @"five Blu-Rays of Paul Blart: Mall Cop,\n", @"six Blu-Rays of Paul Blart: Mall Cop,\n",
+                           @"seven Blu-Rays of Paul Blart: Mall Cop,\n", @"eight Blu-Rays of Paul Blart: Mall Cop\n",
+                           @"nine Blu-Rays of Paul Blart: Mall Cop,\n", @"ten Blu-Rays of Paul Blart: Mall Cop,\n",
+                           @"eleven Blu-Rays of Paul Blart: Mall Cop,\n", @"twelve Blu-Rays of Paul Blart: Mall Cop,\n"];
         
         // Loop 12 times
         for (int i = 0; i < [ordinalNumbers count]; i++) {
